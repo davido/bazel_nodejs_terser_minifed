@@ -1,0 +1,7 @@
+load("@npm_bazel_terser//:index.bzl", "terser_minified")
+
+terser_minified(
+    name = "out.min",
+    src = "input.js",
+    sourcemap = False,
+)

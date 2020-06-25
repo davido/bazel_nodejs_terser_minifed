@@ -1,0 +1,3 @@
+# Keep following lines sorted according to `LC_COLLATE=C sort`
+/bazel-*
+node_modules/
